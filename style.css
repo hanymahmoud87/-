@@ -1,0 +1,162 @@
+/* style.css */
+
+/* إعدادات عامة */
+body {
+    font-family: 'Arial', sans-serif;  /* خط واضح وسهل القراءة */
+    background-color: #000;  /* خلفية سوداء */
+    color: #fff;  /* النصوص باللون الأبيض لتكون واضحة */
+    text-align: right;  /* محاذاة النصوص إلى اليمين */
+    margin: 0;
+    padding: 0;
+}
+
+/* تنسيق الحاوية */
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+/* تنسيق العنوان الرئيسي */
+.title {
+    font-size: 36px;
+    color: #8B0000;  /* لون أحمر غامق */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* تنسيق العناوين الفرعية للأذكار */
+.dhikr-title {
+    font-size: 28px;
+    color: #8B0000;  /* لون أحمر غامق */
+    margin-top: 30px;
+    font-weight: bold;  /* جعل الخط سميكًا */
+}
+
+/* تنسيق النصوص داخل الأذكار */
+.dhikr-text, .dhikr-meaning {
+    font-size: 18px;
+    color: #ccc;  /* لون نص التفسير بشكل خفيف */
+    margin: 10px 0;
+    line-height: 1.6;  /* زيادة المسافة بين السطور لسهولة القراءة */
+}
+
+/* تنسيق حواف الأذكار */
+.dhikr {
+    border-bottom: 2px solid #8B0000;  /* حدود حمراء غامقة */
+    padding-bottom: 20px;
+}
+body {
+    font-family: 'Cairo', sans-serif;
+}
+.dhikr {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.dhikr:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+body {
+    background-image: url('path_to_your_image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.dhikr {
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+h2.dhikr-title {
+    margin-bottom: 10px;
+}
+
+p.dhikr-text, p.dhikr-meaning {
+    margin-bottom: 15px;
+}
+body {
+    background-color: #1a1a1a; /* لون خلفية داكن */
+    color: #f5f5f5;  /* لون النص الفاتح */
+}
+
+h1, h2 {
+    color: #B22222; /* العناوين باللون الأحمر الغامق */
+}
+@media (max-width: 768px) {
+    .dhikr {
+        padding: 15px;
+    }
+
+    .dhikr-title {
+        font-size: 18px;
+    }
+
+    .dhikr-text, .dhikr-meaning {
+        font-size: 14px;
+    }
+}
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #1a1a1a; /* خلفية داكنة */
+    color: #f5f5f5;  /* النص باللون الفاتح */
+}
+
+h1, h2 {
+    color: #B22222; /* العناوين باللون الأحمر الغامق */
+}
+
+.dhikr-title {
+    color: #B22222; /* اللون الأحمر الغامق للعناوين */
+    transition: color 0.3s ease;
+}
+
+.dhikr-title:hover {
+    color: #FF6347; /* اللون الأحمر المشع عند التمرير */
+}
+
+.dhikr-button {
+    padding: 10px 20px;
+    background-color: #B22222; /* الأحمر الغامق */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dhikr-button:hover {
+    background-color: #FF6347; /* الأحمر المشع عند التمرير */
+}
+
+.dhikr {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.dhikr:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .dhikr {
+        padding: 15px;
+    }
+
+    .dhikr-title {
+        font-size: 18px;
+    }
+
+    .dhikr-text, .dhikr-meaning {
+        font-size: 14px;
+    }
+}
